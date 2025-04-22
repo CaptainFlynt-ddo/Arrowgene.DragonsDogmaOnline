@@ -136,7 +136,7 @@ public class ScriptedQuest : IQuest
         process0.AddOmInteractEventBlock(QuestAnnounceType.CheckpointAndUpdate, Stage.TrainingChapel, 1, 1, OmQuestType.MyQuest, OmInteractType.Touch)
             .AddResultCmdTutorialDialog(TutorialId.TacticalRoleoftheAlchemist)
             .AddQuestFlag(QuestFlagType.QstLayout, QuestFlagAction.Set, QstLayoutFlag.QuestSpecifiedMessageOM);
-        process0.AddTalkToNpcBlock(QuestAnnounceType.CheckpointAndUpdate, Stage.TheWhiteDragonTemple0, NpcId.Renton0, 14597)
+        process0.AddTalkToNpcBlock(QuestAnnounceType.CheckpointAndUpdate, Stage.TheWhiteDragonTemple0, NpcId.Renton0, 14604)
             .AddQuestFlag(QuestFlagType.QstLayout, QuestFlagAction.Clear, QstLayoutFlag.QuestSpecifiedMessageOM);
         process0.AddProcessEndBlock(true);
 
